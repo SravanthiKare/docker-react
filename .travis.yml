@@ -7,4 +7,3 @@ before_install:
 
 script:
   - docker run -e CI=true sravanthikare/docker-react npm run test -- -- coverage
-  - q
